@@ -14,6 +14,13 @@ describe('helloWorld', function() {
     });
 });
 
+describe('sayHello', function() {
+    it('should be a defined function', function () {
+        expect(typeof sayHello).toBe('function');
+    });
+});
+
+
 // describe("plusOne", function () {
 //   it("should be defined a function", function () {
 //     expect(typeof plusOne).toBe("function")
