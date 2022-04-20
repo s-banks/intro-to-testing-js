@@ -12,7 +12,9 @@ const helloWorld = function() {
 function sayHello(val) {
     if (val === "Alex") {
         return "Hello, Alex";
-    } else {
+    } else if (val === "Pat") {
+        return "Hello, Pat";
+    } else{
         return "Hello, Jane";
     }
 }
