@@ -19,10 +19,24 @@ const helloWorld = function() {
 //     }
 // }
 
+// function sayHello(val) {
+//     if (typeof val === "undefined") {
+//         return "Hello, World!";
+//     } else if (val === true) {
+//         return "Hello, World!";
+//     } else if (val === false) {
+//         return "Hello, World!";
+//     } else {
+//         return "Hello, " + val + "!";
+//     }
+// }
 function sayHello(val) {
-    return "Hello, " + val + "!";
+    if (typeof val !== "string") {
+        return "Hello, World!"
+    } else {
+        return "Hello, " + val + "!";
+    }
 }
-
 
 
 
