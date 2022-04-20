@@ -9,15 +9,22 @@ const helloWorld = function() {
     return "Hello, World!";
 }
 
+// function sayHello(val) {
+//     if (val === "Alex") {
+//         return "Hello, Alex!";
+//     } else if (val === "Pat") {
+//         return "Hello, Pat!";
+//     } else{
+//         return "Hello, Jane!";
+//     }
+// }
+
 function sayHello(val) {
-    if (val === "Alex") {
-        return "Hello, Alex";
-    } else if (val === "Pat") {
-        return "Hello, Pat";
-    } else{
-        return "Hello, Jane";
-    }
+    return "Hello, " + val + "!";
 }
+
+
+
 
 
 
