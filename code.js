@@ -10,7 +10,7 @@ const helloWorld = function() {
 }
 
 function sayHello(val) {
-
+    return "";
 }
 
 
