@@ -31,16 +31,27 @@ describe('sayHello', function() {
         expect(sayHello("Pat")).toBe("Hello, Pat!");
     });
     it('should return "Hello, World!" if input is empty', function () {
-        expect(sayHello()).toBe("Hello, World!")
+        expect(sayHello()).toBe("Hello, World!");
     });
     it('should return "Hello, World!" if value is true', function () {
-        expect(sayHello(true)).toBe("Hello, World!")
+        expect(sayHello(true)).toBe("Hello, World!");
     });
     it('should return "Hello, World!" if value is false', function () {
-        expect(sayHello(false)).toBe("Hello, World!")
+        expect(sayHello(false)).toBe("Hello, World!");
     });
 });
 
+describe('isFive', function() {
+    it('should be a defined function', function () {
+        expect(typeof isFive).toBe('function');
+    });
+    it('should return a boolean regardless of input', function () {
+        expect(isFive()).toBe("boolean");
+    });
+    it('should return true when input is 5', function () {
+        expect(isFive(5)).toBe(true);
+    });
+});
 
 
 

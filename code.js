@@ -39,6 +39,14 @@ function sayHello(val) {
 }
 
 
+function isFive(val) {
+   if (val == 5) {
+        return true;
+    } else {
+        return Boolean(val);
+    }
+}
+
 
 
 
